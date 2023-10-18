@@ -29,7 +29,7 @@ public class Game
 
         while (true)
         {
-            Write("How many games would you like to play?: ");
+            Write("How many rounds would you like to play?: ");
             bool isValidConversion = int.TryParse(ReadLine()!, out numOfGames);
 
             if (isValidConversion && numOfGames < 11) break;
